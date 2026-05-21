@@ -35,7 +35,7 @@ entrenament\
 &emsp;&emsp;|&emsp;&emsp;|&emsp;&emsp;|-- ...\
 &emsp;&emsp;|&emsp;&emsp;|-- CAM1 (Id de la càmera)\
 &emsp;&emsp;|&emsp;&emsp;|&emsp;&emsp;|-- 18460.jpg\
-&emsp;&emsp;|&emsp;&emsp;|&emsp;&emsp;|-- ...\
+&emsp;&emsp;|&emsp;&emsp;|&emsp;&emsp;|-- ...
 
 
 
@@ -46,7 +46,7 @@ test\
 &emsp;&emsp;|&emsp;&emsp;|&emsp;&emsp;|-- ...\
 &emsp;&emsp;|&emsp;&emsp;|-- CAM1 (Id de la càmera)\
 &emsp;&emsp;|&emsp;&emsp;|&emsp;&emsp;|-- 18460.jpg\
-&emsp;&emsp;|&emsp;&emsp;|&emsp;&emsp;|-- ...\
+&emsp;&emsp;|&emsp;&emsp;|&emsp;&emsp;|-- ...
 
 
 
