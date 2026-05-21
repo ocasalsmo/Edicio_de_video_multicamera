@@ -30,20 +30,20 @@ Un directori per als vídeos del conjunt d'entrenament, i un altre amb el de tes
 entrenament/
 └── video_0002 (nom del vídeo)/
     ├── output (fotograma utilitzat al video final)/
-    │   ├── 18362.jpg
-    │   └── ...
+    │   ├── 18362.jpg/
+    │   └── .../
     └── CAM1 (Id de la càmera)/
-        ├── 18460.jpg
-        └── ...
+        ├── 18460.jpg/
+        └── .../
 
 test/
 └── video_0002/
     ├── output/
-    │   ├── 18362.jpg
-    │   └── ...
+    │   ├── 18362.jpg/
+    │   └── .../
     └── CAM1/
-        ├── 18460.jpg
-        └── ...
+        ├── 18460.jpg/
+        └── .../
 
 
 Finalment, les id de cada frame hauran de reflectir la distància temporal entre fotogrames.
