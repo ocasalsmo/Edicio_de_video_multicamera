@@ -28,7 +28,7 @@ També es requereix una copia del TVMCE dataset o un altre conjunt de dades estr
 Un directori per als vídeos del conjunt d'entrenament, i un altre amb el de test, que segueixint la següent estructura:
 
 entrenament\
-\t|-- video_0002 (nom del vídeo)\
+&emsp;|-- video_0002 (nom del vídeo)\
 \t    |-- output (fotograma utilitzat al video final)\
 \t    |\t   |-- 18362.jpg\
 \t    |\t  |-- ...\
