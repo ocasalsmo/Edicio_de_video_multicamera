@@ -29,12 +29,12 @@ Un directori per als vídeos del conjunt d'entrenament, i un altre amb el de tes
 
 entrenament\
 &emsp;&emsp;|-- video_0002 (nom del vídeo)\
-&emsp;&emsp;&emsp;&emsp;|-- output (fotograma utilitzat al video final)\
-&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;|-- 18362.jpg\
-&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;|-- ...\
-&emsp;&emsp;&emsp;&emsp;|-- CAM1 (Id de la càmera)\
-&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;|-- 18460.jpg\
-&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;|-- ...\
+&emsp;&emsp;|&emsp;&emsp;|-- output (fotograma utilitzat al video final)\
+&emsp;&emsp;|&emsp;&emsp;|&emsp;&emsp;|-- 18362.jpg\
+&emsp;&emsp;|&emsp;&emsp;|&emsp;&emsp;|-- ...\
+&emsp;&emsp;|&emsp;&emsp;|-- CAM1 (Id de la càmera)\
+&emsp;&emsp;|&emsp;&emsp;|&emsp;&emsp;|-- 18460.jpg\
+&emsp;&emsp;|&emsp;&emsp;|&emsp;&emsp;|-- ...\
 
 test\
 |-- video_0002\
