@@ -28,41 +28,28 @@ També es requereix una copia del TVMCE dataset o un altre conjunt de dades estr
 Un directori per als vídeos del conjunt d'entrenament, i un altre amb el de test, que segueixi la següent estructura:
 
 |-- train/test
-|   |   |-- video_0002         
-|   |   |   |-- output        
+
+|   |   |-- video_0002
+|
+|   |   |   |-- output
+|
 |   |   |   |   |-- 18362.jpg
+
 |   |   |   |   |-- ...
-|   |   |   |-- CAM1          
+
+|   |   |   |-- CAM1       
+
 |   |   |   |   |-- 18460.jpg
+
 |   |   |   |   |-- ...
+
 |   |   |   |-- CAM2
+
 |   |   |   |   |-- 18460.jpg
+
 |   |   |   |   |-- ...
 
 Finalment, les id de cada frame hauran de reflectir la distància temporal entre fotogrames.
-
-├── DATASET
-│   ├── meta
-│   │   ├── train.json         
-│   │   ├── test.json          
-│   ├── train                  
-│   │   ├── video_0002         
-│   │   │   ├── output         
-│   │   │   │   ├── 18362.jpg
-│   │   │   │   ├── ...
-│   │   │   ├── CAM1           
-│   │   │   │   ├── 18460.jpg
-│   │   │   │   ├── ...
-│   │   │   ├── CAM2
-│   │   │   │   ├── 18460.jpg
-│   │   │   │   ├── ...
-│   │   │   ├── ...
-│   │   ├── video_0003         
-│   │   │   ├── ...  
-│   │   ├── ...
-│   ├── test                   
-│   │   ├── video_0000
-│   │   ├── ...
 
 En el repositori s'inclou un entorn amb les depndències necessàries per crear-ne el model amb aquest notebook.
 
