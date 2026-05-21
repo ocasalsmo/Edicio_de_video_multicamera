@@ -27,7 +27,7 @@ També es requereix una copia del TVMCE dataset o un altre conjunt de dades estr
 
 Un directori per als vídeos del conjunt d'entrenament, i un altre amb el de test, que segueixint la següent estructura:
 
-```
+
 entrenament\
 &emsp;&emsp;|-- video_0002 (nom del vídeo)\
 &emsp;&emsp;|&emsp;&emsp;|-- output (fotograma utilitzat al video final)\
@@ -36,9 +36,9 @@ entrenament\
 &emsp;&emsp;|&emsp;&emsp;|-- CAM1 (Id de la càmera)\
 &emsp;&emsp;|&emsp;&emsp;|&emsp;&emsp;|-- 18460.jpg\
 &emsp;&emsp;|&emsp;&emsp;|&emsp;&emsp;|-- ...\
-```
 
-```
+
+
 test\
 &emsp;&emsp;|-- video_0002 (nom del vídeo)\
 &emsp;&emsp;|&emsp;&emsp;|-- output (fotograma utilitzat al video final)\
@@ -47,7 +47,7 @@ test\
 &emsp;&emsp;|&emsp;&emsp;|-- CAM1 (Id de la càmera)\
 &emsp;&emsp;|&emsp;&emsp;|&emsp;&emsp;|-- 18460.jpg\
 &emsp;&emsp;|&emsp;&emsp;|&emsp;&emsp;|-- ...\
-```
+
 
 
 Finalment, les id de cada fotograma hauran de reflectir la distància temporal entre fotogrames.
