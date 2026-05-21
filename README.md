@@ -14,6 +14,16 @@ El codi presentat s'ha elaborat amb les següents llibreries:
 |numpy      |2.4.4   |CLlibreria de python per treballar amb arrays.|
 |seaborn    |0.13.2  |Llibreria construïda sobre matplotlib que simplifica la creació de gràfics avançats.|
 
+També es requereix una copia del TVMCE dataset o un altre conjunt de dades estructurat de la mateixa forma, en concreat cada mostra ha de tenir els camps següents:
+
+- Un Json amb les mostres d'entrenament i altre amb les de test, cada mostra deu tenir la següent estructura:
+    + _boundary_: Si' s'ha considerat realitzar un canvi de càmera (0) o no (1).
+    + _videoID_: Id del video al que pertany la mostra.
+    + _CAMFrame_: Id del fotograma candidat.
+    + _outputList_: Fotogrames anteriors al candidat.
+    + _currentCam_: Id de la càmera que s'ha utilitzat en els fotogrames anteriors.
+    + _CAMList_: Id de les càmeres a les que pertany cada candidat.
+    + _selectCAM_: El Id de la càmera a la que pertany el fotograma candidat que finalment es va considerar.
 
 En el repositori s'inclou un entorn amb les depndències necessàries per crear-ne el model amb aquest notebook.
 
