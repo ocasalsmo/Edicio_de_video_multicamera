@@ -27,6 +27,7 @@ També es requereix una copia del TVMCE dataset o un altre conjunt de dades estr
 
 Un directori per als vídeos del conjunt d'entrenament, i un altre amb el de test, que segueixint la següent estructura:
 
+```
 entrenament\
 &emsp;&emsp;|-- video_0002 (nom del vídeo)\
 &emsp;&emsp;|&emsp;&emsp;|-- output (fotograma utilitzat al video final)\
@@ -35,7 +36,9 @@ entrenament\
 &emsp;&emsp;|&emsp;&emsp;|-- CAM1 (Id de la càmera)\
 &emsp;&emsp;|&emsp;&emsp;|&emsp;&emsp;|-- 18460.jpg\
 &emsp;&emsp;|&emsp;&emsp;|&emsp;&emsp;|-- ...\
+```
 
+```
 test\
 &emsp;&emsp;|-- video_0002 (nom del vídeo)\
 &emsp;&emsp;|&emsp;&emsp;|-- output (fotograma utilitzat al video final)\
@@ -44,15 +47,23 @@ test\
 &emsp;&emsp;|&emsp;&emsp;|-- CAM1 (Id de la càmera)\
 &emsp;&emsp;|&emsp;&emsp;|&emsp;&emsp;|-- 18460.jpg\
 &emsp;&emsp;|&emsp;&emsp;|&emsp;&emsp;|-- ...\
+```
 
 
-Finalment, les id de cada frame hauran de reflectir la distància temporal entre fotogrames.
+Finalment, les id de cada fotograma hauran de reflectir la distància temporal entre fotogrames.
 
 En el repositori s'inclou un entorn amb les depndències necessàries per crear-ne el model amb aquest notebook.
 
 ``
 pip install -r requirements.txt
 ``
+
+## Arquitectura del model
+
+El model creat està format per 3 components:
+- **Extractor de característiques**:  Crea un _feature vector_ amb les característiques d'un fotograma, el _frame offset_, i el id de la càmera. S'aplica tant a fotogrames passats com candidats.
+- **Barrejador de fotogrames passats amb fotogrames candidats**:  Aplica self-attention sobre els feature vectors per dotar-lis context.
+- **MLP**: S'aplica només sobre els vectors amb context corresponents als candidats i s'encarrega d'assignar-lis una puntuació en funció de que tan adequats són.
 
 ## Estructura
 
