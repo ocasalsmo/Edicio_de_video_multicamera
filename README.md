@@ -37,13 +37,13 @@ entrenament\
 &emsp;&emsp;|&emsp;&emsp;|&emsp;&emsp;|-- ...\
 
 test\
-|-- video_0002\
-    |--output\
-    |   |--18362.jpg\
-    |   |-- ...\
-    |-- CAM1\
-        |-- 18460.jpg\
-        |-- ...\
+&emsp;&emsp;|-- video_0002 (nom del vídeo)\
+&emsp;&emsp;|&emsp;&emsp;|-- output (fotograma utilitzat al video final)\
+&emsp;&emsp;|&emsp;&emsp;|&emsp;&emsp;|-- 18362.jpg (Fotograma)\
+&emsp;&emsp;|&emsp;&emsp;|&emsp;&emsp;|-- ...\
+&emsp;&emsp;|&emsp;&emsp;|-- CAM1 (Id de la càmera)\
+&emsp;&emsp;|&emsp;&emsp;|&emsp;&emsp;|-- 18460.jpg\
+&emsp;&emsp;|&emsp;&emsp;|&emsp;&emsp;|-- ...\
 
 
 Finalment, les id de cada frame hauran de reflectir la distància temporal entre fotogrames.
