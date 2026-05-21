@@ -27,12 +27,12 @@ També es requereix una copia del TVMCE dataset o un altre conjunt de dades estr
 
 Un directori per als vídeos del conjunt d'entrenament, i un altre amb el de test, que segueixi la següent estructura:
 
-├── train /test                 # Video frames file with a sampling stride of 5 frames
-│   │   ├── video_0002         # Video TV Show id
-│   │   │   ├── output         # Video frames from the final output
+├── train/test                
+│   │   ├── video_0002         
+│   │   │   ├── output        
 │   │   │   │   ├── 18362.jpg
 │   │   │   │   ├── ...
-│   │   │   ├── CAM1           # Video frames from different track
+│   │   │   ├── CAM1          
 │   │   │   │   ├── 18460.jpg
 │   │   │   │   ├── ...
 │   │   │   ├── CAM2
