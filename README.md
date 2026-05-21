@@ -25,6 +25,45 @@ També es requereix una copia del TVMCE dataset o un altre conjunt de dades estr
     + _CAMList_: Id de les càmeres a les que pertany cada candidat.
     + _selectCAM_: El Id de la càmera a la que pertany el fotograma candidat que finalment es va considerar.
 
+Un directori per als vídeos del conjunt d'entrenament, i un altre amb el de test, que segueixi la següent estructura:
+
+├── train /test                 # Video frames file with a sampling stride of 5 frames
+│   │   ├── video_0002         # Video TV Show id
+│   │   │   ├── output         # Video frames from the final output
+│   │   │   │   ├── 18362.jpg
+│   │   │   │   ├── ...
+│   │   │   ├── CAM1           # Video frames from different track
+│   │   │   │   ├── 18460.jpg
+│   │   │   │   ├── ...
+│   │   │   ├── CAM2
+│   │   │   │   ├── 18460.jpg
+│   │   │   │   ├── ...
+
+Finalment, les id de cada frame hauran de reflectir la distància temporal entre fotogrames.
+
+├── DATASET
+│   ├── meta
+│   │   ├── train.json         
+│   │   ├── test.json          
+│   ├── train                  
+│   │   ├── video_0002         
+│   │   │   ├── output         
+│   │   │   │   ├── 18362.jpg
+│   │   │   │   ├── ...
+│   │   │   ├── CAM1           
+│   │   │   │   ├── 18460.jpg
+│   │   │   │   ├── ...
+│   │   │   ├── CAM2
+│   │   │   │   ├── 18460.jpg
+│   │   │   │   ├── ...
+│   │   │   ├── ...
+│   │   ├── video_0003         
+│   │   │   ├── ...  
+│   │   ├── ...
+│   ├── test                   
+│   │   ├── video_0000
+│   │   ├── ...
+
 En el repositori s'inclou un entorn amb les depndències necessàries per crear-ne el model amb aquest notebook.
 
 ``
