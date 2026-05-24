@@ -69,7 +69,7 @@ El model creat està format per 3 components:
 
 El repositori inclou:
 
-|artxiu|Descripció|
+|Artxiu|Descripció|
 |------|----------|
 |MobilNet_Multicamera_Model.ipynb| Codi amb el que s'ha creat i evaluat el model amb backbone MobileNetV3|
-|main.html| Codi amb el que s'ha creat i evaluat el model amb backbone SwinV2|
+|SwinV2_Multicamera_Model.ipynb| Codi amb el que s'ha creat i evaluat el model amb backbone SwinV2|
