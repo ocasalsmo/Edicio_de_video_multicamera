@@ -71,5 +71,5 @@ El repositori inclou:
 
 |artxiu|Descripció|
 |------|----------|
-|main.ipynb| Codi amb el que s'ha entrenat el model|
-|main.html| Versió en html del jupyter notebook|
+|MobilNet_Multicamera_Model.ipynb| Codi amb el que s'ha creat i evaluat el model amb backbone MobileNetV3|
+|main.html| Codi amb el que s'ha creat i evaluat el model amb backbone SwinV2|
