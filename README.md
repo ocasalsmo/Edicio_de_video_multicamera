@@ -14,7 +14,7 @@ El codi presentat s'ha elaborat amb les següents llibreries:
 |numpy      |2.4.4   |CLlibreria de python per treballar amb arrays.|
 |seaborn    |0.13.2  |Llibreria construïda sobre matplotlib que simplifica la creació de gràfics avançats.|
 
-També es requereix una copia del TVMCE dataset o un altre conjunt de dades estructurat de la mateixa forma, en concreat cada mostra ha de tenir els camps següents:
+També es requereix el _dataset_ TVMCE (https://virtualfilmstudio.github.io/projects/multicam/) o un altre conjunt de dades estructurat de la mateixa forma, en concret han de poseïr el següent:
 
 - Un Json amb les mostres d'entrenament i altre amb les de test, cada mostra deu tenir la següent estructura:
     + _boundary_: Si' s'ha considerat realitzar un canvi de càmera (0) o no (1).
@@ -25,7 +25,7 @@ També es requereix una copia del TVMCE dataset o un altre conjunt de dades estr
     + _CAMList_: Id de les càmeres a les que pertany cada candidat.
     + _selectCAM_: El Id de la càmera a la que pertany el fotograma candidat que finalment es va considerar.
 
-Un directori per als vídeos del conjunt d'entrenament, i un altre amb el de test, que segueixint la següent estructura:
+- Un directori per als vídeos del conjunt d'entrenament, i un altre amb el de test, que segueixint la següent estructura:
 
 
 entrenament\
