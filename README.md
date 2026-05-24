@@ -1,7 +1,7 @@
 # Edicio de video multicàmera
-Notebook amb el qual s'ha elaborat model capaç de suggerir quin és el punt de vista més indicat a mostrar en un entorn multicàmera.
+Notebook amb el qual s'han elaborat dos models capaç de suggerir quin és el punt de vista més indicat a mostrar en un entorn multicàmera, un utilitza com a backbone SwinV2 i l'altre MobileNetV3.
 
-## Instal·lació
+## Dependències
 
 El codi presentat s'ha elaborat amb les següents llibreries:
 
