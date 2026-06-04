@@ -65,7 +65,7 @@ Els models creats estan formats per 3 components:
 - **Barrejador de fotogrames passats amb fotogrames candidats**:  Aplica self-attention sobre els feature vectors per a dotar-los de context.
 - **MLP**: S'aplica només sobre els vectors amb context corresponents als candidats i s'encarrega d'assignar-los una puntuació en funció de que tan adequats són.
 
-## Producte
+## Resultats
 
 En les _releases_ del repositori, s'inclou en versió onnx del model que millors resultats ha donat, el que empra SwinV2 com a backbone, per a que pugui ser utilitzat en entorns diferents a Pytorch.
 
@@ -88,4 +88,5 @@ El repositori inclou:
 |SwinV2_Multicamera_Model.ipynb| Codi amb el que s'ha creat i evaluat el model amb backbone SwinV2|
 |MobilNet_Multicamera_Model.html| Versió en html del notebook MobilNet_Multicamera_Model.ipynb|
 |SwinV2_Multicamera_Model.html| Versió en html del notebook SwinV2_Multicamera_Model.ipynb|
+|Edició de vídeo multicàmera amb self-attention i embeddings temporals i de càmera.pdf| Treball de fi de Master on es donen més detalls sobre la creació del model.|
 |requirements.txt| Entorn _pip_ amb el qual s'han executat els dos notebooks.|
