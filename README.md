@@ -86,4 +86,6 @@ El repositori inclou:
 |------|----------|
 |MobilNet_Multicamera_Model.ipynb| Codi amb el que s'ha creat i evaluat el model amb backbone MobileNetV3|
 |SwinV2_Multicamera_Model.ipynb| Codi amb el que s'ha creat i evaluat el model amb backbone SwinV2|
+|MobilNet_Multicamera_Model.html| Versió en html del notebook MobilNet_Multicamera_Model.ipynb|
+|SwinV2_Multicamera_Model.html| Versió en html del notebook SwinV2_Multicamera_Model.ipynb|
 |requirements.txt| Entorn _pip_ amb el qual s'han executat els dos notebooks.|
