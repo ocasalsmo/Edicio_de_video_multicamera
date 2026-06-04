@@ -31,7 +31,7 @@ També es requereix el _dataset_ TVMCE (https://virtualfilmstudio.github.io/proj
 entrenament\
 &emsp;&emsp;|-- video_0002 (nom del vídeo)\
 &emsp;&emsp;|&emsp;&emsp;|-- output (fotograma utilitzat al video final)\
-&emsp;&emsp;|&emsp;&emsp;|&emsp;&emsp;|-- 18362.jpg\
+&emsp;&emsp;|&emsp;&emsp;|&emsp;&emsp;|-- 18362.jpg (Fotograma)\
 &emsp;&emsp;|&emsp;&emsp;|&emsp;&emsp;|-- ...\
 &emsp;&emsp;|&emsp;&emsp;|-- CAM1 (Id de la càmera)\
 &emsp;&emsp;|&emsp;&emsp;|&emsp;&emsp;|-- 18460.jpg\
