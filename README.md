@@ -67,7 +67,7 @@ Els models creats estan formats per 3 components:
 
 ## Producte
 
-En les _releases_ del repositori, s'inclou en versió onnx el model que millors resultats ha donat, el que empra SwinV2 com a backbone, per a que pugui ser utilitzat en entorns diferents a Pytorch.
+En les _releases_ del repositori, s'inclou en versió onnx del model que millors resultats ha donat, el que empra SwinV2 com a backbone, per a que pugui ser utilitzat en entorns diferents a Pytorch.
 
 En cas que es vulgui entrenar un model amb aquesta arquitectura sense utilitzar cap dels _backbones_ esmentats, es pot modificat la cel·la "_Definint timm backbone, dimensions, i nom del model_" present en els dos notebooks amb algun dels models pre-entrenats presents a _timm_. Concretament, s'haurà d'especificar:
 
